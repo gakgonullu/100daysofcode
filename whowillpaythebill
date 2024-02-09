@@ -1,0 +1,5 @@
+import random
+names=["Ezra", "Ben", "Lucy"]
+names_length=len(names)
+random_number=random.randint(0, names_length-1)
+print(f"{names[random_number]} is the lucky one $.$")
